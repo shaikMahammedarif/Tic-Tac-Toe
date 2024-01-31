@@ -80,14 +80,22 @@ button:hover {
     transform: translateY(-2px);
 }
 
+
 .foot{
     font-size: 15PX;
     padding: 40PX;
     text-decoration: none;
-
+    color: purple;
+}
+a{
+    font-size: 10PX;
+    padding: 40PX;
+    text-decoration: none;
+    color: purple;
+    text-align: center;
 }
 
 .foot:hover{
     cursor: pointer;
     transform: translateY(-2px);
-}
+  }
