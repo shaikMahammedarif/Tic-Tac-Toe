@@ -8,13 +8,16 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Finger+Paint&display=swap" rel="stylesheet"> 
-        <link rel="website icon" type="png" href="https://play-lh.googleusercontent.com/olAmuekrpuX4TRC1p_uqBY05Ci6uTbQhVx1RGpKGkBGrfil9F2qHP5maTsyGksED6zAG"/>
-
+    <link rel="website icon" type="png" href="https://play-lh.googleusercontent.com/olAmuekrpuX4TRC1p_uqBY05Ci6uTbQhVx1RGpKGkBGrfil9F2qHP5maTsyGksED6zAG"/>
 </head>
 <body>
     <div class="container">
         <h1 id="playerText">Tic Tac Toe</h1>
-        <button id="restartBtn">Restart</button>
+        <div class="buttons">
+            <button id="twoPlayers" onclick="setGameMode('twoPlayers')">Two Players</button>
+            <button id="computer" onclick="setGameMode('computer')">Computer</button>
+            <button id="restartBtn">Restart</button>
+        </div>
 
         <div id="gameboard">
             <div class="box" id="0"></div>
@@ -26,12 +29,11 @@
             <div class="box" id="6"></div>
             <div class="box" id="7"></div>
             <div class="box" id="8"></div>
-           
         </div>
-        <footer class="foot ">
+        <footer class="foot">
             <a href="https://github.com/shaikMahammedarif" class="github_link text-center text-body-secondary" target="_blank">Developed by © shaikMahammedarif </a>
-          </footer>
+        </footer>
     </div>
-<script src="index.js"></script>
+    <script src="index.js"></script>
 </body>
 </html>
